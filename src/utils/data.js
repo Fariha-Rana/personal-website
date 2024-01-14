@@ -28,7 +28,7 @@ export const projectData = [
       title: 'Realtime Chat app',
       description:'Using appwrite Realtime functionality users can chat in realtime',
       gitHubLink: 'https://github.com/Fariha-Rana/chat-app',
-      websiteLink: 'https://chat-app-beta-ruddy.vercel.app/',
+      websiteLink: 'https://chat-app-lilac-omega.vercel.app/',
       stack: "javascript, Next.js, Appwrite, Chakra-ui"
     },
     {
