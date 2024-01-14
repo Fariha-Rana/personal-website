@@ -38,7 +38,7 @@ const Intro = () => {
             </span>
           </h1>
           <h4 className="text-sm sm:text-base bg-neutral-200 mt-6 p-4  rounded-lg bg-shadow w-72 ">
-            I'm a{" "}
+            {"I'm a"}{" "}
             <span className="underline underline-offset-3 decoration-2 decoration-blue-700 ">
               Next.js
             </span>{" "}
