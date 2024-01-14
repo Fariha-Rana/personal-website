@@ -32,7 +32,7 @@ const Intro = () => {
             </span>
           </div>
           <h1 className="lg:2xl md:text-lg p-4 text-nowrap  bg-neutral-200 rounded-full bg-shadow ">
-            👋 Hey! there, I'm{" "}
+            {"👋 Hey! there, I'm"}
             <span className="text-xl text-sky-800 font-extrabold ">
               Fariha Rana
             </span>

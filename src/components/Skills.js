@@ -26,22 +26,23 @@ const skillsData = [
 ];
 
 const Skills = () => {
-
   return (
-    <section id="skills" className="w-full  text-gray-700 lg:mt-24 md:mt-24 mt-36 flex flex-col justify-center items-center font-mono z-50 sm:ml-16 md:w-[55rem] sm:pl-16 xl:w-[90rem]">
-      <h2 className="text-center m-8 text-4xl font-extrabold text-fuchsia-100 underline ">Skills</h2>
-        <div className="grid grid-cols-2 gap-10 xl:grid-cols-3 md:grid-cols-3 xxl:grid-cols-3 ">
-          {skillsData.map((skill, index) => (
-            <div className="w-[10rem] ">
-
-            <SkillCard key={index} title={skill.title} icon={skill.icon} />
-            </div>
-
-          ))}
-        </div>
+    <section
+      id="skills"
+      className="w-full  text-gray-700 lg:mt-24 md:mt-24 mt-36 flex flex-col justify-center items-center font-mono z-50 sm:ml-16 md:w-[55rem] sm:pl-16 xl:w-[90rem]"
+    >
+      <h2 className="text-center m-8 text-4xl font-extrabold text-fuchsia-100 underline ">
+        Skills
+      </h2>
+      <div className="grid grid-cols-2 gap-10 xl:grid-cols-3 md:grid-cols-3 xxl:grid-cols-3 ">
+        {skillsData.map((skill, index) => (
+          <div className="w-[10rem] " key={index}>
+            <SkillCard title={skill.title} icon={skill.icon} />
+          </div>
+        ))}
+      </div>
     </section>
   );
 };
 
 export default Skills;
-
