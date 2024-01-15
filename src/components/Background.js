@@ -64,11 +64,11 @@ const IconAnimation = () => {
 
   return (
     <>
-      <div className="icon-container animate-pulse lg:text-lg text-sm ">
+      <div className="icon-container animate-pulse text-lg w-screen h-screen text-nowrap">
       {shuffledIcons.map((Icon, index) => {
           const randomColor = getRandomColor();
           return (
-           <span className="px-4 xsm:p-8"  key={index}>
+           <span className="px-4 "  key={index}>
            <Icon
               style={{ color: randomColor }}
             />

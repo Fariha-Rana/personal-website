@@ -9,10 +9,10 @@ const Intro = () => {
     <section
       id="intro"
       className="text-gray-800 flex justify-center items-center 
-      w-full xl:w-[100rem] md:w-[50rem] sm:w-[30rem]"
+      w-screen h-screen "
     >
-      <div className="flex flex-col justify-center items-center xl:flex-row-reverse  xxl:mt-36  xxl:flex-row-reverse xl:mr-32 font-mono xl:mt-32 mt-20 p-8 z-1 sm:ml-24 md:ml-16">
-        <aside className="flex justify-center xl:flex-none m-4 xl:ml-8">
+      <div className="flex flex-col justify-center items-center lg:flex-row-reverse w-full h-full max-[540px]:mt-24  max-[290px]:ml-8 ">
+        <aside className="flex justify-center lg:ml-16 ">
           <Image
             src={"/icon.png"}
             width={400}
@@ -22,7 +22,7 @@ const Intro = () => {
             priority={true}
           />
         </aside>
-        <aside className="flex flex-col items-center justify-center text-center w-full md:w-96 lg:mr-8">
+        <aside className="flex flex-col items-center justify-center text-center max-[840px]:mt-4">
           <div className="mb-4">
             <span className="bg-green-700 text-white text-md font-medium me-2 px-2.5 py-1 rounded">
               remote
@@ -32,12 +32,12 @@ const Intro = () => {
             </span>
           </div>
           <h1 className="lg:2xl md:text-lg p-4 text-nowrap  bg-neutral-200 rounded-full bg-shadow ">
-            {"👋 Hey! there, I'm"}
+            {"👋 Hey! there, I'm"}{" "}
             <span className="text-xl text-sky-800 font-extrabold ">
               Fariha Rana
             </span>
           </h1>
-          <h4 className="text-sm sm:text-base bg-neutral-200 mt-6 p-4  rounded-lg bg-shadow w-72 ">
+          <h4 className="text-sm sm:text-base bg-neutral-200 mt-6 p-6  rounded-lg bg-shadow w-60 ">
             {"I'm a"}{" "}
             <span className="underline underline-offset-3 decoration-2 decoration-blue-700 ">
               Next.js
