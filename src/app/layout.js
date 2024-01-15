@@ -29,12 +29,6 @@ export default function RootLayout({ children }) {
             <FloatingIcons />
             <FloatingIcons />
             <FloatingIcons />
-            <FloatingIcons />
-            <FloatingIcons />
-            <FloatingIcons />
-            <FloatingIcons />
-            <FloatingIcons />
-            <FloatingIcons />
           </div>
         <main>{children}</main>
         <Footer />
