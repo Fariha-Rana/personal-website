@@ -3,15 +3,25 @@
 @tailwind utilities;
 
 
-html {
-  overflow: hidden;
-  height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  overflow: auto;
-  height: 100%;
+
+body, html {
+  margin: 0;
+  padding: 0;
 }
+
+
+body {
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+  min-height: 100vh;
+}
+
 
 .bg {
   background: linear-gradient(
