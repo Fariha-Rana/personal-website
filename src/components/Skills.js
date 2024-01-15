@@ -1,7 +1,7 @@
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaCss3Alt } from "react-icons/fa6";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiSolidity, SiTailwindcss, SiAppwrite } from "react-icons/si";
+import { SiSolidity, SiTailwindcss, SiAppwrite, SiChakraui } from "react-icons/si";
 import { FaNodeJs, FaHtml5 } from "react-icons/fa";
 
 const SkillCard = ({ title, icon }) => {
@@ -23,6 +23,7 @@ const skillsData = [
   { title: "Tailwind", icon: <SiTailwindcss /> },
   { title: "Solidity", icon: <SiSolidity /> },
   { title: "Node.js", icon: <FaNodeJs /> },
+  { title: "Chakra-ui", icon: <SiChakraui /> },
 ];
 
 const Skills = () => {
