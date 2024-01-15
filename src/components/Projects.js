@@ -27,8 +27,8 @@ const Projects = () => {
     <section
       id="projects"
       className="flex flex-col justify-center items-center font-mono text-neutral-100 text-lg text-pretty w-screen h-screen max-[400px]:mt-24  max-[290px]:ml-4 " 
-    >
-      <h2 className="text-center text-nowrap text-4xl  max-[290px]:text-3xl  text-neutral-200 underline m-8 opacity-90 " style={{ textShadow: "3px 3px 2px"}}>
+        >
+      <h2 className="text-center text-nowrap text-4xl  max-[290px]:text-3xl  text-neutral-200 underline m-8 opacity-90  max-[430px]:text-2xl " style={{ textShadow: "3px 3px 2px"}}>
         Featured Projects
       </h2>
       <div className="h-[25rem] max-[540px]:h-[35rem] flex flex-col justify-center items-center lg:w-[40rem] md:w-[30rem] w-[20rem]  max-[290px]:w-[18rem]  max-[290px]:h-[39rem] ">

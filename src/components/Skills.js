@@ -32,7 +32,7 @@ const Skills = () => {
       id="skills"
       className="w-screen h-screen  text-gray-700 flex flex-col justify-center items-center font-mono z-50 max-[400px]:mt-24"
     >
-      <h2 className="text-center m-8 text-4xl font-extrabold text-fuchsia-100 underline ">
+      <h2 className="text-center m-8 text-4xl font-extrabold text-fuchsia-100 underline "  style={{ textShadow: "3px 3px 2px"}}>
         Skills
       </h2>
       <div className="grid gap-10 max-[530px]:grid-cols-2 grid-cols-3 ">
