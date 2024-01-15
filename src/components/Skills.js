@@ -7,7 +7,7 @@ import { FaNodeJs, FaHtml5 } from "react-icons/fa";
 const SkillCard = ({ title, icon }) => {
   return (
     <div className="flex justify-center items-center max-[540px]:w-[9rem]  max-[290px]:w-[8rem]  max-[290px]:ml-4  w-40 shadow-2xl rounded-lg bg-gray-200 p-4 icon">
-      <h5>{title}</h5>
+      <h5 className="text-nowrap">{title}</h5>
       <span className="text-4xl">{icon}</span>
     </div>
   );
@@ -23,7 +23,7 @@ const skillsData = [
   { title: "Tailwind", icon: <SiTailwindcss /> },
   { title: "Solidity", icon: <SiSolidity /> },
   { title: "Node.js", icon: <FaNodeJs /> },
-  { title: "Chakra-ui", icon: <SiChakraui /> },
+  { title: "chakra-ui", icon: <SiChakraui /> },
 ];
 
 const Skills = () => {
