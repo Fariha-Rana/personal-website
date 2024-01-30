@@ -8,10 +8,9 @@ const Intro = () => {
   return (
     <section
       id="intro"
-      className="text-gray-800 flex justify-center items-center 
-      w-screen h-screen "
+      className="text-gray-800 lg:pt-16 h-screen"
     >
-      <div className="flex flex-col justify-center items-center lg:flex-row-reverse w-full h-full max-[540px]:mt-24  max-[290px]:ml-8 ">
+      <div className="flex flex-col justify-center items-center min-[700px]:flex-row-reverse w-full h-full  max-[290px]:ml-6 ">
         <aside className="flex justify-center lg:ml-16 ">
           <Image
             src={"/icon.png"}
@@ -45,7 +44,7 @@ const Intro = () => {
             full-stack developer based in Meerut, India. I am specialize in
             building exceptional Next.js-based websites.
           </h4>
-          <div className="flex gap-4 mt-6  bg-neutral-200 justify-center items-center rounded-full p-3  bg-shadow w-[130px] h-[40px] link">
+          <div className="flex gap-4 mt-6  bg-neutral-200 justify-center items-center rounded-full p-3 bg-shadow w-[130px] h-[40px] link">
             <Link href="https://twitter.com/fariha0712">
               <FaTwitter />
             </Link>

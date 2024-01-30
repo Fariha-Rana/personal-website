@@ -9,15 +9,15 @@ const Contact = () => {
   const status = typeof state === "string" && state;
 
   return (
-    <section id="contact" className="flex flex-col justify-around items-center h-screen w-screen lg:mt-64  max-[400px]:mt-24  min-[540px]:mt-48  max-[290px]:mt-40 ">
-      <h2 className="text-center text-nowrap text-4xl text-neutral-200 underline opacity-90 " style={{ textShadow: "3px 3px 2px"}}>
+    <section id="contact" className="h-screen w-screen flex justify-center items-center flex-col mt-36">
+      <h2 className="text-center text-nowrap text-4xl text-neutral-200 underline opacity-90 mb-8" style={{ textShadow: "3px 3px 2px"}}>
         Contact ME!
       </h2>
       <form
-        className="flex flex-col justify-between items-center bg-neutral-200 px-8 py-4 mb-16 mt-0 rounded-md w-max hover:bg-purple-100 border-purple-800 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_1px_#08f,0_0_1px_#08f,0_0_10px_#08f]  max-[400px]:px-2  max-[290px]:ml-8"
+        className=" flex flex-col justify-between items-center bg-neutral-200 px-8 py-5 mb-16 max-[400px]:mt-4 rounded-md w-max hover:bg-purple-100 border-purple-800 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_1px_#08f,0_0_1px_#08f,0_0_10px_#08f]  max-[400px]:px-2  max-[290px]:ml-8"
         action={formAction}
       >
-        <div className="flex text-sm border border-gray-900 p-4 rounded-full bg-slate-600 text-nowrap text-gray-100">
+        <div className="flex text-sm border border-gray-900 p-5 rounded-full bg-slate-600 text-nowrap text-gray-100 ">
         <span>Email me at: fariharana.eth@gmail.com</span>
       </div>
         <p className="text-center my-2 text-green-600 text-lg  h-5">
@@ -28,12 +28,12 @@ const Contact = () => {
             htmlFor="name"
             className="mb-3 block text-sm font-medium text-gray-600"
           >
-            Full Name
+            Your Name
           </label>
           <input
             type="name"
             name="name"
-            placeholder="Full Name"
+            placeholder="Your Name"
             className="rounded-md border border-gray-400 bg-gray-200 py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md"
             required
           />

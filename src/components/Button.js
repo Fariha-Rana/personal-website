@@ -9,7 +9,7 @@ function SubmitButton() {
         className= "hover:shadow-form rounded-md bg-purple-500 py-3 px-6 text-base font-semibold text-white outline-none"
         disabled={pending}
       >
-        {pending ? "sending..." : "Send"}
+        {pending ? "Sending..." : "Send"}
       </button>
     </>
   );

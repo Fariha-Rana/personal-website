@@ -8,7 +8,7 @@ const SkillCard = ({ title, icon }) => {
   return (
     <div className="flex justify-center items-center max-[540px]:w-[9rem]  max-[290px]:w-[8rem]  max-[290px]:ml-4  w-40 shadow-2xl rounded-lg bg-gray-200 p-4 icon">
       <h5 className="text-nowrap">{title}</h5>
-      <span className="text-4xl">{icon}</span>
+      <span className="text-4xl max-[500px]:text-2xl ">{icon}</span>
     </div>
   );
 };
@@ -24,18 +24,19 @@ const skillsData = [
   { title: "Solidity", icon: <SiSolidity /> },
   { title: "Node.js", icon: <FaNodeJs /> },
   { title: "chakra-ui", icon: <SiChakraui /> },
+  // { title: "Hardhat", icon: <SiChakraui /> },
 ];
 
 const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-screen h-screen  text-gray-700 flex flex-col justify-center items-center font-mono z-50 max-[400px]:mt-24"
+      className="w-screen h-screen  text-gray-700 flex flex-col justify-center items-center font-mono z-50 "
     >
-      <h2 className="text-center m-8 text-4xl font-extrabold text-fuchsia-100 underline "  style={{ textShadow: "3px 3px 2px"}}>
+      <h2 className="text-center max-[500px]:mb-5  m-8 text-4xl font-extrabold text-fuchsia-100 underline "  style={{ textShadow: "3px 3px 2px"}}>
         Skills
       </h2>
-      <div className="grid gap-10 max-[530px]:grid-cols-2 grid-cols-3 ">
+      <div className="grid gap-10 max-[530px]:grid-cols-2 grid-cols-3 max-[500px]:ml-[0.8rem]">
         {skillsData.map((skill, index) => (
           <div className="" key={index}>
             <SkillCard title={skill.title} icon={skill.icon} />
