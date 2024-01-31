@@ -64,7 +64,7 @@ const IconAnimation = () => {
 
   return (
     <>
-      <div className="icon-container animate-pulse text-lg overflow-hidden text-nowrap mt-4 lg:mt-8">
+      <div className="icon-container animate-pulse text-lg overflow-hidden text-nowrap mt-4 lg:mt-8 relative">
       {shuffledIcons.map((Icon, index) => {
           const randomColor = getRandomColor();
           return (

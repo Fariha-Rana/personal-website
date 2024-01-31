@@ -36,7 +36,7 @@ const Skills = () => {
       <h2 className="text-center max-[500px]:mb-5  m-8 text-4xl font-extrabold text-fuchsia-100 underline "  style={{ textShadow: "3px 3px 2px"}}>
         Skills
       </h2>
-      <div className="grid gap-10 max-[530px]:grid-cols-2 grid-cols-3 max-[500px]:ml-[0.8rem]">
+      <div className="grid gap-10 max-[530px]:grid-cols-2 grid-cols-3">
         {skillsData.map((skill, index) => (
           <div className="" key={index}>
             <SkillCard title={skill.title} icon={skill.icon} />

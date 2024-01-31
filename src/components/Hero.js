@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <section
       id="intro"
-      className="text-gray-800 lg:pt-16 h-screen"
+      className="text-gray-800 lg:pt-16 max-[400px]:pt-16 h-screen"
     >
       <div className="flex flex-col justify-center items-center min-[700px]:flex-row-reverse w-full h-full  max-[290px]:ml-6 ">
         <aside className="flex justify-center lg:ml-16 ">

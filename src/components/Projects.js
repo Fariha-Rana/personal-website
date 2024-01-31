@@ -31,7 +31,7 @@ const Projects = () => {
       <h2 className="text-center text-nowrap text-4xl  max-[290px]:text-lg  text-neutral-200 underline m-8 opacity-90  max-[430px]:text-3xl " style={{ textShadow: "3px 3px 2px"}}>
         Featured Projects
       </h2>
-      <div className="h-[25rem] max-[540px]:h-[36rem] flex flex-col justify-center items-center lg:w-[40rem] md:w-[30rem] w-[20rem]  max-[290px]:w-[19rem]  max-[290px]:h-[39rem]">
+      <div className="h-[26rem] max-[540px]:h-[36rem] flex flex-col justify-center items-center lg:w-[40rem] md:w-[30rem] w-[20rem]  max-[290px]:w-[19rem]  max-[290px]:h-[39rem]">
         {currentProjects.map((project) => (
           <div
             className="p-4 border border-solid border-neutral-800 rounded-2xl  bg-slate-100 flex flex-col justify-center items-center project-bg project"
@@ -45,14 +45,14 @@ const Projects = () => {
                 - {project.title}
               </h3>
             </div>
-            <div className="flex mt-3 h-[12rem] min-[700px]:w-[28rem] max-[700px]:h-[30rem] text-center justify-center items-center max-[540px]:text-sm">
+            <div className="flex mt-3 h-[12rem] min-[700px]:w-[28rem] max-[700px]:h-[18rem] text-center justify-center items-center max-[540px]:text-[0.9rem]">
               <p>{project.description}</p>
             </div>
             <div className="mt-4 flex flex-col justify-center items-center text-center">
-              <h6 className=" font-bold text-gray-900 text-center text-nowrap underline text-xl">
+              <h6 className=" font-bold text-gray-900 text-center text-nowrap underline text-xl ">
                 tech-stack:
               </h6>
-              <span>{project?.stack}</span>
+              <span className="max-[540px]:text-[0.9rem]">{project?.stack}</span>
             </div>
             <div className="flex justify-center mt-6 text-2xl">
               <Link href={project.gitHubLink}>
