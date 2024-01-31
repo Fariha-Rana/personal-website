@@ -45,7 +45,7 @@ const Projects = () => {
                 - {project.title}
               </h3>
             </div>
-            <div className="flex mt-3 h-[12rem] min-[700px]:w-[28rem] max-[700px]:h-[30rem] text-center justify-center items-center">
+            <div className="flex mt-3 h-[12rem] min-[700px]:w-[28rem] max-[700px]:h-[30rem] text-center justify-center items-center max-[540px]:text-sm">
               <p>{project.description}</p>
             </div>
             <div className="mt-4 flex flex-col justify-center items-center text-center">
