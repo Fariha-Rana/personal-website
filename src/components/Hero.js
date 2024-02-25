@@ -12,13 +12,10 @@ const Intro = () => {
     >
       <div className="flex flex-col justify-center items-center min-[700px]:flex-row-reverse w-full h-full  max-[290px]:ml-6 ">
         <aside className="flex justify-center lg:ml-16 ">
-          <Image
+          <img
             src={"/icon.png"}
-            width={400}
-            height={400}
             className="w-auto h-auto"
             alt="Profile Icon"
-            priority={true}
           />
         </aside>
         <aside className="flex flex-col items-center justify-center text-center max-[840px]:mt-4">

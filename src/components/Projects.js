@@ -31,7 +31,7 @@ const Projects = () => {
       <h2 className="text-center text-nowrap text-4xl  max-[290px]:text-lg  text-neutral-200 underline m-8 opacity-90  max-[430px]:text-3xl " style={{ textShadow: "3px 3px 2px"}}>
         Featured Projects
       </h2>
-      <div className="h-[26rem] max-[540px]:h-[36rem] flex flex-col justify-center items-center lg:w-[40rem] md:w-[30rem] w-[20rem]  max-[290px]:w-[19rem]  max-[290px]:h-[39rem]">
+      <div className="h-[25rem] max-[540px]:h-[36rem] flex flex-col justify-center items-center lg:w-[40rem] md:w-[30rem] w-[20rem]  max-[290px]:w-[19rem]  max-[290px]:h-[39rem]">
         {currentProjects.map((project) => (
           <div
             className="p-4 border border-solid border-neutral-800 rounded-2xl  bg-slate-100 flex flex-col justify-center items-center project-bg project"
