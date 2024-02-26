@@ -53,8 +53,8 @@ const Projects = () => {
               </h6>
               <span className="max-[540px]:text-[0.9rem]">{project?.stack}</span>
             </div>
-            <div className="flex justify-center mt-6 text-2xl" target="_blank" rel="noopener noreferrer">
-              <Link href={project.gitHubLink}>
+            <div className="flex justify-center mt-6 text-2xl">
+              <Link href={project.gitHubLink}  target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </Link>
               <Link className="ml-4" href={project.websiteLink} target="_blank" rel="noopener noreferrer">
