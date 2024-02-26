@@ -25,13 +25,12 @@ const Projects = () => {
 
   return (
     <section
-      id="projects"
-      className="flex flex-col justify-center items-center font-mono text-neutral-100 text-lg text-pretty w-screen h-screen max-[400px]:mt-24  max-[290px]:ml-4 " 
+      className="flex flex-col justify-center items-center font-mono text-lg text-pretty w-screen h-screen  mt-4   max-[290px]:ml-4 " 
         >
-      <h2 className="text-center text-nowrap text-4xl  max-[290px]:text-lg  text-neutral-200 underline m-8 opacity-90  max-[430px]:text-3xl " style={{ textShadow: "3px 3px 2px"}}>
+      <h2 className="text-center text-nowrap text-4xl  max-[290px]:text-lg  text-neutral-200 underline m-4  max-[430px]:text-3xl " style={{ textShadow: "3px 3px 2px"}}>
         Featured Projects
       </h2>
-      <div className="h-[25rem] max-[540px]:h-[36rem] flex flex-col justify-center items-center lg:w-[40rem] md:w-[30rem] w-[20rem]  max-[290px]:w-[19rem]  max-[290px]:h-[39rem]">
+      <div className="h-[25rem] max-[540px]:h-[36rem] flex flex-col justify-center items-center lg:w-[40rem] sm:w-[30rem] w-[20rem]  max-[290px]:w-[19rem]  max-[290px]:h-[39rem]">
         {currentProjects.map((project) => (
           <div
             className="p-4 border border-solid border-neutral-800 rounded-2xl  bg-slate-100 flex flex-col justify-center items-center project-bg project"
@@ -54,11 +53,11 @@ const Projects = () => {
               </h6>
               <span className="max-[540px]:text-[0.9rem]">{project?.stack}</span>
             </div>
-            <div className="flex justify-center mt-6 text-2xl">
+            <div className="flex justify-center mt-6 text-2xl" target="_blank" rel="noopener noreferrer">
               <Link href={project.gitHubLink}>
                 <FaGithub />
               </Link>
-              <Link className="ml-4" href={project.websiteLink}>
+              <Link className="ml-4" href={project.websiteLink} target="_blank" rel="noopener noreferrer">
                 <FaLink />
               </Link>
             </div>

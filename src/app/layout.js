@@ -16,7 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className}`}>
       <Navbar/>
-        <div className="fixed bg h-full w-full -z-50 ">
+        <div className="fixed max-[1024px]:hidden bg -z-50 ">
+            <FloatingIcons />
+            <FloatingIcons />
+            <FloatingIcons />
             <FloatingIcons />
             <FloatingIcons />
             <FloatingIcons />
@@ -30,7 +33,8 @@ export default function RootLayout({ children }) {
             <FloatingIcons />
             <FloatingIcons />
           </div>
-        <main>{children}</main>
+        <main>{children}
+        </main>
         <Footer />
       </body>
     </html>

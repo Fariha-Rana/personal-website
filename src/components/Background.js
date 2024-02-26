@@ -28,6 +28,8 @@ const icons = [
   BsQrCodeScan,
   GrDatabase,
   IoLogoJavascript,
+  IoLogoJavascript,
+  IoLogoJavascript,
 ];
 
 const multipleShuffle = (array, times) => {
@@ -64,11 +66,11 @@ const IconAnimation = () => {
 
   return (
     <>
-      <div className="icon-container animate-pulse text-lg overflow-hidden text-nowrap mt-4 lg:mt-8 relative">
+      <div className="icon-container animate-pulse text-lg overflow-hidden text-nowrap  m-6 relative">
       {shuffledIcons.map((Icon, index) => {
           const randomColor = getRandomColor();
           return (
-           <span className="max-[500px]:px-4 max-[600px]:text-sm" key={index}>
+           <span key={index}>
            <Icon
               style={{ color: randomColor }}
             />
