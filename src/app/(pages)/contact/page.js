@@ -9,7 +9,7 @@ const Contact = () => {
   const status = typeof state === "string" && state;
 
   return (
-    <section className="h-screen w-screen flex justify-center items-center flex-col max-[380px]:mt-20">
+    <section className="h-screen w-screen flex justify-center items-center flex-col mt-4">
       <h2
         className="text-center text-nowrap text-4xl hidden md:block text-neutral-200 underline m-8"
         style={{ textShadow: "3px 3px 2px" }}
