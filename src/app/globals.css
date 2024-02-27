@@ -126,7 +126,7 @@ button {
 }
 
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   body {
     width: 100%;
     height: auto; 
@@ -139,4 +139,4 @@ button {
       linear-gradient(45deg, var(--color) var(--bg));
     background-size: var(--size) var(--size);
   }
-}
+} */

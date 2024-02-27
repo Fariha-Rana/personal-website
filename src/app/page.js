@@ -7,7 +7,7 @@ import React from "react";
 const Intro = () => {
   return (
     <>
-      <div className="flex flex-col text-gray-600 font-extrabold justify-center items-center h-screen min-[700px]:flex-row-reverse mt-8  max-[290px]:ml-6 ">
+      <div className="flex flex-col text-gray-600 font-extrabold justify-center items-center h-screen min-[700px]:flex-row-reverse md:mt-4  max-[290px]:ml-6 ">
         <aside className="flex justify-center lg:ml-16 ">
           <img src={"/icon.png"} className="w-auto h-auto" alt="Profile Icon" />
         </aside>

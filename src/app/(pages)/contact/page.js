@@ -17,13 +17,13 @@ const Contact = () => {
         Contact ME!
       </h2>
       <form
-        className=" flex flex-col justify-center items-center bg-neutral-200 px-8 py-5  rounded-md w-max hover:bg-purple-100 border-purple-800 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_1px_#08f,0_0_1px_#08f,0_0_10px_#08f]  max-[400px]:px-2  max-[290px]:m-8"
+        className=" flex flex-col justify-center items-center bg-neutral-200 px-8 pt-5 rounded-md w-max hover:bg-purple-100 border-purple-800 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_1px_#08f,0_0_1px_#08f,0_0_10px_#08f]  max-[400px]:px-2  max-[290px]:m-8"
         action={formAction}
       >
         <div className="text-sm border border-gray-900 p-5 rounded-full bg-slate-600 text-nowrap text-gray-100 ">
           <span>Email me at: fariharana.eth@gmail.com</span>
         </div>
-        <div className="flex md:flex-row flex-col justify-center items-center gap-8 mt-4">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-8 lg:mt-4 mt-2">
           <div className="">
             <div className="mb-5">
               <label
