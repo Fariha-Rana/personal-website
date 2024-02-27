@@ -70,7 +70,7 @@ const IconAnimation = () => {
       {shuffledIcons.map((Icon, index) => {
           const randomColor = getRandomColor();
           return (
-           <span key={index} className="max-[550px]:py-2 max-[550px]:px-3">
+           <span key={index} className="max-[550px]:py-3 max-[550px]:px-4">
            <Icon
               style={{ color: randomColor }}
             />
