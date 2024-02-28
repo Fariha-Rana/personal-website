@@ -10,7 +10,7 @@ const navItems = [
 
 function Navbar() {
   return (
-    <nav className="top-0 w-full z-50 p-5 font-mono bg-nav text-gray-500">
+    <nav className="top-0 w-full fixed z-50 p-5 font-mono bg-nav text-gray-500">
       <ul className="flex justify-center lg:text-2xl md:text-lg text-sm">
         {navItems.map((item, index) => (
           <li key={index} className="pr-4 lg:px-10 px-4">
