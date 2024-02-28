@@ -16,7 +16,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className}`}>
       <Navbar/>
-        <div className="fixed bg -z-50 ">
+        <div className="fixed bg -z-50 h-screen">
+            <FloatingIcons />
             <FloatingIcons />
             <FloatingIcons />
             <FloatingIcons />
