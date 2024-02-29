@@ -12,7 +12,7 @@ export const projectData = [
     id: 2,
     title: "Online Music App",
     description:
-      "This project is a music platform built using Next.js, Appwrite, Tailwind and Sptify API. It allows users to create playlists, view new albums, and listen to music.",
+      "This project is a music platform built using Next.js, Appwrite, Tailwind and Spotify API. It allows users to create playlists, view new albums, and listen to music.",
     gitHubLink: "https://github.com/Fariha-Rana/music-platform",
     websiteLink: "https://music-platform-fariha-ranas-projects.vercel.app/",
     stack: "javascript, Next.js, tailwind, Appwrite",
