@@ -19,6 +19,15 @@ export const projectData = [
   },
   {
     id: 3,
+    title: "Meals' Recipes Hub",
+    description:
+      "This project is a Meals' Recipes based platform built using Next.js, Tailwind CSS, NextUi and the MealDB API. Users can search for recipes, view random dishes, and explore various meal categories.",
+    gitHubLink: "https://github.com/Fariha-Rana/recipe-sharing-platform",
+    websiteLink: "https://recipe-sharing-platform-two.vercel.app/",
+    stack: "javascript, Next.js, tailwind, NextUi",
+  },
+  {
+    id: 4,
     title: "Streak Maker App",
     description:
       "A Habit based streak maker app built on Next.js and appwrite database and authorization. It helps users build good habit or break bad ones.",
@@ -27,7 +36,7 @@ export const projectData = [
     stack: "javascript, Next.js, tailwind, Appwrite",
   },
   {
-    id: 4,
+    id: 5,
     title: "Image sharing Platform",
     description:
       "A website where users can share their Images Post. It utilizes the Appwrite backend for user authentication and data storage",
@@ -36,7 +45,7 @@ export const projectData = [
     stack: "javascript, Next.js, Chakra-Ui, Appwrite",
   },
   {
-    id: 5,
+    id: 6,
     title: "NLP Todo List App",
     description:
       "An NLP based Todo List App built with Next.js. It includes functionality using chrono-mode and stopword library for managing a todo list and displaying current date and time. All data is stored in localstorage. It helps users check list out their plans and tick as they do them.",
@@ -45,7 +54,7 @@ export const projectData = [
     stack: "javascript, Next.js, tailwind",
   },
   {
-    id: 6,
+    id: 7,
     title: "Realtime Chat app",
     description:
       "Using appwrite Realtime functionality users can chat in realtime",
@@ -54,7 +63,7 @@ export const projectData = [
     stack: "javascript, Next.js, Appwrite, Chakra-ui",
   },
   {
-    id: 7,
+    id: 8,
     title: "Weather app",
     description:
       "It fetches current weather data from the WeatherAPI and displays it in a user-friendly interface. This website displays current weather data, forecast data, astro and warning data as well.",
@@ -63,7 +72,7 @@ export const projectData = [
     stack: "javascript, Next.js, tailwind",
   },
   {
-    id: 8,
+    id: 9,
     title: "Movie Streaming app",
     description:
       "This is a streaming platform project that allows users to find and explore movies. By utilizing TMDB API Users can see trending movies and shows and search for their favorite movie",
@@ -72,7 +81,7 @@ export const projectData = [
     stack: "javascript, Next.js, tailwind",
   },
   {
-    id: 9,
+    id: 10,
     title: "Blogging Website",
     description:
       "Using appwrite auth and database users can read and save blogs into their profile",
@@ -82,7 +91,7 @@ export const projectData = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: "Workout Planner App",
     description:
       "This project is a Fitness Tracker application allows users to track their workout progress and set daily fitness goals.",
