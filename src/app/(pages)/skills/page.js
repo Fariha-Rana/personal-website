@@ -30,7 +30,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <section
-      className="w-screen h-screen  text-gray-700 flex flex-col justify-center items-center font-mono z-40  mt-4"
+      className="w-screen h-screen  text-gray-700 flex flex-col justify-center items-center font-mono z-40  md:mt-4"
     >
       <h2 className="text-center m-6  text-4xl font-extrabold  text-gray-100 underline z-20"  style={{ textShadow: "3px 3px 2px"}}>
         Skills

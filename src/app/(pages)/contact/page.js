@@ -40,7 +40,7 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="mb-5">
+            <div className="md:mb-5">
               <label
                 htmlFor="email"
                 className="mb-3 block text-sm font-medium text-gray-600"
